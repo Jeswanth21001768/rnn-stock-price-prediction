@@ -96,7 +96,7 @@ X_test = np.reshape(X_test,(X_test.shape[0], X_test.shape[1],1))
 
 X_test.shape
 
-print("Name: Ragul A C          Register Number:212221240042")
+print("Name: Jeswanth S         Register Number:212221230042")
 plt.plot(np.arange(0,1384),inputs, color='red', label = 'Test(Real) Google stock price')
 plt.plot(np.arange(60,1384),predicted_stock_price, color='blue', label = 'Predicted Google stock price')
 plt.title('Google Stock Price Prediction')
@@ -109,7 +109,7 @@ plt.show()
 
 ### True Stock Price, Predicted Stock Price vs time
 
-<img width="492" alt="image" src="https://github.com/Jeswanth21001768/rnn-stock-price-prediction/assets/94155480/7b173683-2301-42d8-9019-20f8dbb88720">
+<img width="607" alt="image" src="https://github.com/Jeswanth21001768/rnn-stock-price-prediction/assets/94155480/4cd5eff0-4849-4be3-8290-d91cf2f01520">
 
 
 
